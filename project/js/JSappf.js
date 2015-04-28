@@ -52,6 +52,9 @@ var app = {
             console.log("call module ", module);
             app.loadModule(module);
         });
+        Path.map("#/").to(function () {
+            app.loadModule("index");
+        });
 
         // Start Main
         app.loadModule("main");

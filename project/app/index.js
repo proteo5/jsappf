@@ -43,6 +43,10 @@
         buttonComand: {
             "en-US": "Ok",
             "es-MX": "Esta bien"
+        },
+        lnkLogin: {
+            "en-US": "Login",
+            "es-MX": "Iniciar sesion"
         }
     }
 }
