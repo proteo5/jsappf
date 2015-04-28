@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Custos</title>
+    <meta name="description" content="description">
+    <meta name="author" content="Alfredo Pinto">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/path.js/0.8.4/path.min.js"></script>
+    <script src="/js/locache.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="/js/JSappf.js"></script>
+</head>
+<body>
+    <div id="main-body">
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            app.start({
+                version: '0.7.0',
+                bodyTag: 'main-body',
+                moduleTag: 'ajax-content',
+                doCache: false
+            });
+        });
+    </script>
+
+</body>
+</html>
+
